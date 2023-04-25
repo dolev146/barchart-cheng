@@ -1,0 +1,28 @@
+.noDataAvailableContainer {
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: rgba(76, 83, 87, 0.87);
+}
+
+.noDataAvailable {
+  content: url("./nda.svg");
+  margin: 10px;
+}
+.description {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: rgba(76, 83, 87, 0.64);
+  margin: 0;
+}

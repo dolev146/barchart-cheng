@@ -1,0 +1,25 @@
+.y-axis {
+  margin-top: -6px;
+  display: grid;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 0.6vw;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+.y-axis-right {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+.y-axis-left {
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+}
+.y-axis-element {
+  background-color: transparent;
+  margin: 0px 2px;
+}
+.y-axis-element-right {
+  text-align: right;
+}
+.y-axis-element-left {
+  text-align: left;
+}
